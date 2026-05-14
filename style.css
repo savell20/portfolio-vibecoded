@@ -224,6 +224,37 @@ nav {
   }
 }
 
+/* ── Origin ── */
+.hero-origin {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+  opacity: 0;
+  transform: translateY(12px);
+  animation: fadeUp 0.8s ease forwards;
+  animation-delay: 0.75s;
+}
+
+.flag {
+  font-size: 1.1rem;
+  line-height: 1;
+}
+
+.origin-text {
+  font-size: 0.8rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--gray);
+  font-weight: 400;
+}
+
+.origin-divider {
+  color: var(--accent);
+  font-size: 0.8rem;
+  margin: 0 0.1rem;
+}
+
 /* ── Noise texture overlay ── */
 body::before {
   content: '';
